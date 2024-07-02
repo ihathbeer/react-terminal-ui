@@ -117,11 +117,6 @@ const Terminal = ({name, prompt, height = "600px", colorMode, onInput, children,
   }
   return (
     <div className={ classes.join(' ') } data-terminal-name={ name }>
-      <div className="react-terminal-window-buttons">
-        <button className={`${yellowBtnCallback ? "clickable": ""} red-btn`} disabled={!redBtnCallback} onClick={ redBtnCallback } />
-        <button className={`${yellowBtnCallback ? "clickable" : ""} yellow-btn`} disabled={!yellowBtnCallback} onClick={ yellowBtnCallback } />
-        <button className={`${greenBtnCallback ? "clickable" : ""} green-btn`} disabled={!greenBtnCallback} onClick={ greenBtnCallback } />
-      </div>
       <div className="react-terminal" style={ { height } }>
         { children }
         { typeof onInput === 'function' && <div className="react-terminal-line react-terminal-input react-terminal-active-input" data-terminal-prompt={ prompt || '$' } key="terminal-line-prompt" >{ currentLineInput }<span className="cursor" style={{ left: `${cursorPos+1}px` }}></span></div> }

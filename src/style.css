@@ -7,10 +7,10 @@
  */
  .react-terminal-wrapper {
   width: 100%;
-  background: #252a33;
+  background: #000000;
   color: #eee;
-  font-size: 18px;
-  font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
+  font-size: 13px;
+  font-family: 'Inter', sans-serif;
   border-radius: 4px;
   padding: 75px 45px 35px;
   position: relative;
