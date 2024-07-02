@@ -1,22 +1,7 @@
-[![CI](https://github.com/jonmbake/react-terminal-ui/workflows/CI/badge.svg)](https://github.com/jonmbake/react-terminal-ui/actions?query=workflow%3ACI)
-[![Jest Code Coverage Report](jest-code-coverage-report.svg)](https://jonmbake.github.io/react-terminal-ui/coverage/)
-[![Types TypeScript](types-type-script.svg)](https://github.com/jonmbake/react-terminal-ui/blob/gh-pages/index.d.ts)
-[![CodeQL Scan](codeql-scan.svg)](https://github.com/jonmbake/react-terminal-ui/security/code-scanning?query=tool%3ACodeQL)
-
-# React Terminal UI
-
-A [React](https://github.com/facebook/react) terminal component with support for light/dark modes. Styling is courtesy of [termynal.js](https://github.com/ines/termynal).
-
-Check out the **[Demo](https://jonmbake.github.io/react-terminal-ui/demo/)** :heart_eyes:
-
-![React Terminal UI Demo Dark](https://github.com/jonmbake/screenshots/raw/master/react-terminal-ui/react-terminal-ui-demo-dark.png)
-
-![React Terminal UI Demo Light](https://github.com/jonmbake/screenshots/raw/master/react-terminal-ui/react-terminal-ui-demo-light.png)
-
 ## Installation
 
 ```
-npm install --save react-terminal-ui
+npm install --save react-terminal-ui-metalware
 ```
 
 ## Usage
